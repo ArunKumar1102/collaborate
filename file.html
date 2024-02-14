@@ -18,7 +18,7 @@
 
      <style>
       #banner button{
-        font-size: 1rem;
+      font-size: 1rem;
     font-weight: 700;
     outline: none;
     border: none;
@@ -86,9 +86,9 @@
 #banner{
     background-image: url(./images/banner.jpg);
     width: 100%;
-    height: 90vh;
+    height: 60vh;
     background-size: cover;
-    background-position: top 70px   center;
+    background-position: top    center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
@@ -100,7 +100,7 @@
   transition: opacity 0.5s ease-in-out;
 }
 .imager:hover img{
-  opacity: 0.7;
+  opacity: 0.5;
 } 
 .imager img:hover{
   opacity: 1; 
@@ -128,9 +128,9 @@
                           <select id="value" name="role" 
                             class="  h-14 bg-blue-400 text-lg py-2 px-8 text-white  sm:max-w-xs sm:text-sm " style="z-index: 1; opacity: 1;"
                             >
-                            <option value="">Usa</option>
-                            <option value="">India</option>
-                            <option value="">China</option>
+                            <option value="Usa">Usa</option>
+                            <option value="India">India</option>
+                            <option value="China">China</option>
                         
                           </select>
                         </div>
@@ -176,7 +176,8 @@
                 
                </div>
                
-        </div><hr style="width: 80%; margin-left: 100px; height: 2px; z-index: 100;">
+        </div>
+        <hr style="width: 80%; margin-left: 100px; height: 2px; z-index: 100;">
     </div>
 
     <!-- carousel  -->
@@ -301,8 +302,8 @@
         </div>
       </div>
  
-      <div class="py-8" style="padding-top: 60%;  " id="banner">
-        <div class="" style="margin-left: 100px;padding-bottom: 300px;">
+      <div class="py-5" style="padding-top: 63%;padding-bottom: 100px;  " id="banner">
+        <div class="" style="margin-left: 100px;padding-bottom: 300px;padding-top: 50px;">
            <h1 class="py-7" style="font-size: 35px; font-weight: 400;">Reach your technology and people goals <br> 100% sure and safe</h1>
           <p class="py-5 text-white">We are designing a consultant and engagement mangement system that will fit any client <br> enviornment. we will take care of your staffing needsand diliver targets safe and on time!</p>
           <button class="flex py-5 px-4">
@@ -313,7 +314,7 @@
       </div> 
 
 
-      <div class=" py-8" >
+      <div class="pt-5 "  >
         <div style="padding-left: 100px;color: #34CCFF;font-size: 35px;">
           <h1>Our Partners</h1>
         </div>
@@ -335,6 +336,63 @@
       </div>
 
 
+      <div class="flex " style="background:#F7F7F7;width: 100%; height: 500px;">
+        <div class="" style="padding-left: 100px;padding-top: 40px;">
+          <hr class="my-7 " style="width: 70px; border: 2px solid aqua;border-radius: 4px;margin-right: 420px;">
+          <h1 class="text-uppercase " style="font-size: 40px;font-weight: 300;">What Makes us special?</h1>
+          <p class="text-gray-500 py-3" style="font-size: 12px;">Over 2,000 dedicated employees, working in many regional <br> clusters across USA,
+             India and expanding around the globe, deliver <br> operational excellence.</p>
+
+            <div class="flex py-8">
+
+              <div class="flex px-4">
+                <i class="fa-solid fa-globe text-blue-400 fa-4x" ></i>
+                <h1 class="text-uppercase px-4 pt-3" style="text-transform: uppercase;font-size: 12px;">Technology <br> Consulting</h1>
+               </div>
+
+               <div class="flex" >
+                <i class="fa-solid fa-globe text-blue-400 fa-4x"></i>
+                <h1 class=" px-4 pt-5" style="text-transform: uppercase;font-size: 15px;">staffing</h1>
+               </div>
+            </div>
+
+            <div class="flex py-8 pl-3 ">
+
+              <div class="flex px-4">
+                <i class="fa-solid fa-truck text-blue-400 fa-3x"></i>
+                <h1 class=" px-4  pt-3" style="text-transform: uppercase;font-size: 15px;">Digital</h1>
+               </div>
+
+               <div class="flex pl-8">
+                <i class="fa-solid fa-ship text-blue-400 fa-3x"></i>
+                <h1 class="text-uppercase px-4 pt-3" style="text-transform: uppercase;font-size: 15px;">Mobility</h1>
+               </div>
+            </div>
+        </div>
+
+        <div class="" style="height: 75vh; width: 45%; background: #183650;">
+          <div style=" margin-left: 20px; margin-top: 60px;">
+            <hr class=" " style="width: 70px; border: 2px solid aqua;border-radius: 4px;margin-right: 500px;">
+            <h1 class="text-white py-5" style="text-transform: uppercase;font-size: 33px;font-weight: 300;">Request a quote</h1>
+            
+            <div> 
+
+              <div>
+                <select>
+                  <option disabled selected value="">Service Type</option>
+                  <option value="TechnologyConsulting">Technology constantly</option>
+                  <option value="Staffing">Staffing</option>
+                  <option value="Digital">Digital</option>
+                  <option value="Mobility">Mobility</option>
+                </select>
+              </div>
+
+              <div></div>
+
+            </div>
+          </div>
+        </div>
+      </div>
 
 </body>               
 </html>
