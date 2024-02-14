@@ -105,6 +105,7 @@
 .imager img:hover{
   opacity: 1; 
 }
+
      </style>
 
 
@@ -370,28 +371,61 @@
             </div>
         </div>
 
-        <div class="" style="height: 75vh; width: 45%; background: #183650;">
-          <div style=" margin-left: 20px; margin-top: 60px;">
+        <div class="" style="height: 75vh; width: 50%; background: #183650;">
+          <div style=" margin-left: 40px; margin-top: 60px;">
             <hr class=" " style="width: 70px; border: 2px solid aqua;border-radius: 4px;margin-right: 500px;">
             <h1 class="text-white py-5" style="text-transform: uppercase;font-size: 33px;font-weight: 300;">Request a quote</h1>
             
-            <div> 
+            <form class="flex" action="https://api.web3forms.com/submit" method="POST">  
+              <input type="hidden" name="access_key" value="f730fa7d-4b1c-43dd-afbb-b8fb73198ece">
 
               <div>
-                <select>
+                <select class="p-2 px-6">
                   <option disabled selected value="">Service Type</option>
                   <option value="TechnologyConsulting">Technology constantly</option>
                   <option value="Staffing">Staffing</option>
                   <option value="Digital">Digital</option>
                   <option value="Mobility">Mobility</option>
                 </select>
+
+                <input type="text" name="location" placeholder="Location where it is needed " class="mt-3 px-10 p-2" style="font-size: 14px;">
+                <input type="text" name="location" placeholder="Engagement Type Preferred " class="mt-3 px-10 p-2" style="font-size: 14px;">
+                <input type="text" name="Phone" placeholder="Phone" class=" mt-3 px-10 p-2" style="font-size: 14px;">
               </div>
 
-              <div></div>
+              <div class="">
+                <input type="email" name="email" placeholder="Email" class="mb-4 p-2 px-10" style="margin-right: 30px;">
+                <textarea name="message" placeholder="Message" rows="6" class="px-12 mb-3" style="margin-right: 50px;"></textarea>
+                <button class="flex py-2 px-12 text-white text-center bg-cyan-950 hover:bg-cyan-500 " id="contacts" style="border: 2px solid #34CCFF; border-radius: 50px;transition: 0.5s ease;text-transform: uppercase; ">
+                  Submit
+                  <i class="fa-solid fa-arrow-right px-4" style="border: 20px;  padding-top: 4px;"></i>
+                </button> 
+              </div>
 
-            </div>
+            </form>
           </div>
         </div>
+      </div>
+
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487293.4778705167!2d78.07836133263629!3d17.412733231779377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1707917320453!5m2!1sen!2sin" width="1240" height="700" style="border:0; filter: invert(100%);position:absolute;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+      <div class="flex absolute" style="background: #466379; opacity: 0.5;z-index: 1;">
+        <div>
+        <div>
+          <h1 class="text-white">UnitedStates</h1>
+        </div>
+
+        <div>
+          <h1>UnitedStates</h1>
+        </div>
+
+        <div>
+          <h1>UnitedStates</h1>
+        </div>
+
+      </div>
       </div>
 
 </body>               
